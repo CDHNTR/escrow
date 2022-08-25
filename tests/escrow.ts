@@ -15,6 +15,7 @@ type EscrowAccount = IdlAccounts<Escrow>["escrowAccount"];
 
 describe("escrow", () => {
   const provider = anchor.AnchorProvider.env();
+  console.log("hi");
   const program = anchor.workspace.Escrow as Program<Escrow>;
 
   let mintA: PublicKey = null;
