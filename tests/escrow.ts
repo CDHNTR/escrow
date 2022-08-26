@@ -15,6 +15,7 @@ type EscrowAccount = IdlAccounts<Escrow>["escrowAccount"];
 
 describe("escrow", () => {
   // i am a comment
+  // no way, I am too
   const provider = anchor.AnchorProvider.env();
   const program = anchor.workspace.Escrow as Program<Escrow>;
 
